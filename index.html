@@ -15,10 +15,12 @@
 </head>
 
 <body>
+    <!-- header start -->
     <header>
+        <!-- nav menu begain -->
         <nav class="container navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand fs-2" href="#">Digital <span class="heighlight">Qurbani</span>
+                <a class="navbar-brand fs-2 h1" href="#">Digital <span class="heighlight">Qurbani</span>
                     Hat</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -28,21 +30,125 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cow</a>
+                            <a class="nav-link" href="#cow">Cow</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Goat</a>
+                            <a class="nav-link" href="#goat">Goat</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Dumba</a>
+                            <a class="nav-link" href="#dumba">Dumba</a>
                         </li>
         </nav>
-    </header>
-    <main>
+        <!-------------------------/
+            nav menu closed
+        \-------------------------->
 
+        <!-- hero section start -->
+        <div id="carouselExampleIndicators" class="container carousel slide bg-info" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="container carousel-inner long d-flex align-items-center">
+                <div class="carousel-item active">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col col-lg-7">
+                            <h1>The Most Popular Cattle for meat!</h1>
+                            <p>It is the most popular breed in the United States. This breed outnumbers the rest
+                                breeds combined. It have good marbling ability and meat quality.</p>
+                            <h1>$345</h1>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="col col-lg-5">
+                            <img src="media/images/banner-img/cow.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col col-lg-7">
+                            <h1>Goat meat is a healthier!</h1>
+                            <p>Goat meat or goat's meat is the meat of the domestic goat. It is simply "goat", though
+                                meat from adult goats is referred to as chevon, while that from young goats.</p>
+                            <h1>$299</h1>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="col col-lg-5">
+                            <img src="media/images/banner-img/goat.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col col-lg-7">
+                            <h1>The Testy Meat of Dumba!</h1>
+                            <p>Dumba is the single ingredient that most distinguishes Central Asian plov. Dumba is the
+                                fat tail of the region’s highly valued fat-tailed sheep.</p>
+                            <h1>$756</h1>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                        </div>
+                        <div class="col col-lg-5">
+                            <img src="media/images/banner-img/dumba.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- hero section closed -->
+    </header>
+    <!-- header end -->
+    <main>
+        <section class="container my-5">
+            <div class="row d-flex justify-content-evenly">
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12 card text-white bg-primary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Cow</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Cow meat benefits</h5>
+                        <p class="card-text">This is naturally rich in protein*, which helps muscle growth and supports
+                            muscle mass.</p>
+                        <audio class="w-100" src="media/audio/cow.mp3" controls></audio>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12 card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Goat</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Goat meat benefits</h5>
+                        <p class="card-text"> It is naturally nutritious and has a range of health benefits.
+                            The has less fat, more iron.</p>
+                        <audio class="w-100" src="media/audio/goat.mp3" controls></audio>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12 card text-white bg-success mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Dumba</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dumba meat benefits</h5>
+                        <p class="card-text"> It is a rich source of high-quality protein and outstanding source of many
+                            vitamins and minerals.</p>
+                        <audio class="w-100" src="media/audio/dumba.mp3" controls></audio>
+                    </div>
+                </div>
+
+        </section>
     </main>
     <footer>
 
