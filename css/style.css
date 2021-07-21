@@ -1,6 +1,30 @@
+/* digital qurbani hat custom stylesheet */
 .heighlight{
     color: darkorange;
 }
-.long{
+.hat-long{
     height: 470px;
 }
+.hat-bg{
+    background-color: #d8f3dc;
+}
+/* custom gradient button */
+.hat-button {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)}
+.hat-button {
+   margin: 10px;
+   padding: 10px 40px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .hat-button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
