@@ -6,10 +6,13 @@
     height: 470px;
 }
 .hero{
-    margin-top: 125px;
+    margin-top: 100px;
 }
 .hat-bg{
     background-color: #d8f3dc;
+}
+.hat-padding{
+    padding-bottom: 80px;
 }
 /* custom gradient button */
 .hat-button {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)}
