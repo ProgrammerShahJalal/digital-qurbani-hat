@@ -1,18 +1,18 @@
 /* digital qurbani hat custom stylesheet */
 .heighlight{
-    color: darkorange;
+    color:darkorange;
 }
 .hat-long{
     height: 470px;
-}
-.hero{
-    margin-top: 100px;
 }
 .hat-bg{
     background-color: #d8f3dc;
 }
 .hat-padding{
     padding-bottom: 80px;
+}
+.hat-pt{
+    padding-top: 75px;
 }
 /* custom gradient button */
 .hat-button {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)}
@@ -43,3 +43,4 @@
 .hat-card3-bg{
     background-color: yellowgreen;
 }
+  
