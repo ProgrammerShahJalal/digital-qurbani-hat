@@ -1,4 +1,7 @@
 /* digital qurbani hat custom stylesheet */
+body{
+    overflow-x: hidden;
+}
 .heighlight{
     color:darkorange;
 }
