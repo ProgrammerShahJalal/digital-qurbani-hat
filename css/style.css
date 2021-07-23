@@ -46,4 +46,54 @@ body{
 .hat-card3-bg{
     background-color: yellowgreen;
 }
+@keyframes sliding {
+    0% {
+        background-color: springgreen;
+        left: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    25% {
+        background-color: yellow;
+        top: 170px;
+        width: 45px;
+        height: 45px;
+    }
+
+    75% {
+        background-color: tomato;
+        top: 0;
+        left: 200px;
+        width: 75px;
+        height: 75px;
+
+    }
+
+    100% {
+        background-color: chartreuse;
+        top: 115px;
+        left: 290px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.stage {
+    width: 100%;
+    height: 415px;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    border-radius: 50%;
+    animation: sliding 3s linear 0.5s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+
+}
+
   
